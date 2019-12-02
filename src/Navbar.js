@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
 import Snackbar from '@material-ui/core/Snackbar';
@@ -31,7 +32,7 @@ class Navbar extends Component {
 		return (
 			<header className="Navbar">
 				<div className="logo">
-					<a href="#">reactcolorpicker</a>
+					<Link to="/">reactcolorpicker</Link>
 				</div>
 				<div className="slider-container">
 					<span>Level: {level}</span>
@@ -57,7 +58,9 @@ class Navbar extends Component {
 					open={this.state.open}
 					autoHideDuration={3000}
 					message={
-						<span id="message-id">Format Changed To {format.toUpperCase()}!</span>
+						<span id="message-id">
+							Format Changed To {format.toUpperCase()}!
+						</span>
 					}
 					contentProps={{ 'aria-describedby': 'message-id' }}
 					onClose={this.closeSnackbar}
