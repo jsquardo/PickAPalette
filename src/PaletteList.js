@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import MiniPalette from './MiniPalette';
 import { Link } from 'react-router-dom';
 import { withStyles } from '@material-ui/styles';
+import background from './Assets/ahoy.jpg';
 
 const styles = {
 	root: {
-		backgroundColor: 'navy',
-		height: '100%',
+		background: `url(${background})`,
+		height: '100vh',
+		width: '100vw',
 		display: 'flex',
-		alignItems: 'flex-start',
+		alignItems: 'center',
 		justifyContent: 'center'
 	},
 	container: {
@@ -16,13 +18,15 @@ const styles = {
 		display: 'flex',
 		alignItems: 'flex-start',
 		flexDirection: 'column',
-		flexWrap: 'wrap'
+		flexWrap: 'wrap',
+		marginBottom: '3rem'
 	},
 	nav: {
 		display: 'flex',
 		width: '100%',
 		justifyContent: 'space-between',
-		color: 'white'
+		color: 'black',
+		fontSize: '1.25rem'
 	},
 	palettes: {
 		boxSizing: 'border-box',
@@ -45,7 +49,7 @@ class PaletteList extends Component {
 			<div className={classes.root}>
 				<div className={classes.container}>
 					<nav className={classes.nav}>
-						<h1>React Colors</h1>
+						<h1>React Color Palette</h1>
 					</nav>
 					<div className={classes.palettes}>
 						{palettes.map(palette => (
