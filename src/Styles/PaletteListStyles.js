@@ -4,7 +4,7 @@ export default {
 		height: "100vh",
 		width: "100vw",
 		display: "flex",
-		alignItems: "center",
+		// alignItems: "center",
 		justifyContent: "center"
 	},
 	container: {
@@ -19,8 +19,12 @@ export default {
 		display: "flex",
 		width: "100%",
 		justifyContent: "space-between",
+		alignItems: "center",
 		color: "black",
-		fontSize: "1.25rem"
+		fontSize: "1.25rem",
+		"& a": {
+			color: "black"
+		}
 	},
 	palettes: {
 		boxSizing: "border-box",
