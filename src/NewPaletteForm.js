@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import classNames from "classnames";
 import { withStyles } from "@material-ui/core/styles";
 import PaletteFormNav from "./PaletteFormNav";
 import ColorPickerForm from "./ColorPickerForm";
@@ -41,7 +42,7 @@ class NewPaletteForm extends Component {
 
 	addNewColor(newColor) {
 		this.setState({
-			colors: [...this.state.colors, newColor],
+			colors: [ ...this.state.colors, newColor ],
 			newColorName: ""
 		});
 	}
@@ -65,7 +66,7 @@ class NewPaletteForm extends Component {
 				color => color.name === randomColor.name
 			);
 		}
-		this.setState({ colors: [...this.state.colors, randomColor] });
+		this.setState({ colors: [ ...this.state.colors, randomColor ] });
 	}
 	handleSubmit(newPalette) {
 		newPalette.id = newPalette.paletteName.toLowerCase().replace(/ /g, "-");
@@ -99,8 +100,8 @@ class NewPaletteForm extends Component {
 				/>
 				<Drawer
 					className={classes.drawer}
-					variant='persistent'
-					anchor='left'
+					variant="persistent"
+					anchor="left"
 					open={open}
 					classes={{
 						paper: classes.drawerPaper
@@ -113,22 +114,22 @@ class NewPaletteForm extends Component {
 					</div>
 					<Divider />
 					<div className={classes.container}>
-						<Typography variant='h4' gutterBottom>
+						<Typography variant="h4" gutterBottom>
 							Design Your Palette
 						</Typography>
 						<div className={classes.buttons}>
 							<Button
-								variant='contained'
-								color='secondary'
+								variant="contained"
+								color="secondary"
 								onClick={this.clearColors}
 								className={classes.button}
 							>
 								Clear Palette
 							</Button>
 							<Button
-								variant='contained'
+								variant="contained"
 								className={classes.button}
-								color='primary'
+								color="primary"
 								onClick={this.addRandomColor}
 								disabled={paletteIsFull}
 							>
@@ -151,7 +152,7 @@ class NewPaletteForm extends Component {
 					<DraggableColorList
 						colors={colors}
 						removeColor={this.removeColor}
-						axis='xy'
+						axis="xy"
 						onSortEnd={this.onSortEnd}
 						distance={20}
 					/>
@@ -160,5 +161,4 @@ class NewPaletteForm extends Component {
 		);
 	}
 }
-
 export default withStyles(styles, { withTheme: true })(NewPaletteForm);

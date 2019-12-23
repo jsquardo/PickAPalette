@@ -21,17 +21,12 @@ export default {
 		display: "flex",
 		width: "100%",
 		justifyContent: "space-between",
-<<<<<<< Updated upstream
 		alignItems: "center",
 		color: "black",
 		fontSize: "1.25rem",
 		"& a": {
 			color: "black"
 		}
-=======
-		color: "white",
-		fontSize: "1.25rem"
->>>>>>> Stashed changes
 	},
 	palettes: {
 		boxSizing: "border-box",
