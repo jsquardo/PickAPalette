@@ -7,9 +7,9 @@
 </p>
 
 
-
+<p align"left"
 ![GitHub last commit](https://img.shields.io/github/last-commit/jsquardo/PickAPalette?style=flat-square) [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/jsquardo/PickAPalette/issues/)
-
+</p>
 
 PickAPalette is a side project I am working on that allows you to create and save color palettes to share with other developers and designers. Made with React. Work still in progress.
 
