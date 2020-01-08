@@ -1,5 +1,7 @@
 # PickAPalette
 
+<img src="https://imgur.com/a/aqwlL0S" width=300 align=center>
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/jsquardo/PickAPalette?style=flat-square) [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/jsquardo/PickAPalette/issues/)
 
 
