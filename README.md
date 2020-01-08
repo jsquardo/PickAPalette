@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
   <h2 align="center">PickAPalette</h2>
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/othneildrew/Best-README-Template" align="center">
     <img src="https://user-images.githubusercontent.com/12801900/71950141-3f9ef100-31a4-11ea-8923-bc332a645187.png" width="80" height="80" align="center">
   </a>
 
