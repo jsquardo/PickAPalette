@@ -2,8 +2,11 @@
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/12801900/71949650-52182b00-31a2-11ea-8bf9-3a0932a78e25.png" alt="Kitten"    title="PickAPalette" width="400" align="center" />
+  <img src="https://user-images.githubusercontent.com/12801900/71949650-52182b00-31a2-11ea-8bf9-3a0932a78e25.png" alt="Kitten"    title="PickAPalette" width="400" align="left" />
+   <img src="https://user-images.githubusercontent.com/12801900/71949896-3cefcc00-31a3-11ea-904b-6d859a5ab4c3.png" alt="Kitten"    title="PickAPalette" width="400" align="left" />
 </p>
+
+
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/jsquardo/PickAPalette?style=flat-square) [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/jsquardo/PickAPalette/issues/)
 
