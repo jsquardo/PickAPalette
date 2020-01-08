@@ -17,15 +17,24 @@
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://https://github.com/jsquardo/PickAPalette/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://https://github.com/jsquardo/PickAPalette/issues">Request Feature</a>
   </p>
 </p>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/jsquardo/PickAPalette?style=flat-square) [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/jsquardo/PickAPalette/issues/)
 
+## About The Project
 PickAPalette is a side project I am working on that allows you to create and save color palettes to share with other developers and designers. Made with React. Work still in progress.
+
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template" align="center">
+    <img src="https://user-images.githubusercontent.com/12801900/71950754-7c6be780-31a6-11ea-83ff-e8b1181efb6c.png
+" width="450">
+  </a>
+</p>
+
 
 
 ## Still to do:
