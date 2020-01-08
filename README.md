@@ -11,7 +11,6 @@
 
   <p align="center">
     <br />
-    <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
     <a href="https://https://github.com/jsquardo/PickAPalette/issues">Report Bug</a>
