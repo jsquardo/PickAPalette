@@ -30,7 +30,7 @@ PickAPalette is a side project I am working on that allows you to create and sav
 
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template" align="center">
-    <img src="https://user-images.githubusercontent.com/12801900/71950754-7c6be780-31a6-11ea-83ff-e8b1181efb6c.png" width="450">
+    <img src="https://user-images.githubusercontent.com/12801900/71950754-7c6be780-31a6-11ea-83ff-e8b1181efb6c.png" width="600">
   </a>
 </p>
 
